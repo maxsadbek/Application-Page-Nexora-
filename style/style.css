@@ -382,6 +382,7 @@ main .text .left_text .text2 p {
   width: 400px;
 }
 main .sample {
+  margin-top: 4rem;
   padding: 3rem;
   background-color: rgba(176, 153, 217, 0.4196078431);
   width: 100%;
