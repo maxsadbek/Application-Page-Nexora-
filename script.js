@@ -3,7 +3,7 @@ let menu = document.getElementById("sideMenu");
 let CloseBtn = document.querySelector("#close")
 
 CloseBtn.addEventListener("click", () => {
-    sideMenu.remove("open")
+    menu.classList.remove("open");
 })
 btn.addEventListener("click", () => {
   menu.classList.toggle("open");
