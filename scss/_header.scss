@@ -31,20 +31,39 @@ header {
       position: absolute;
     }
   }
-  .navbar{
+  .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    #menu{
-      color: #fff;
+    .menu {
       font-size: 30px;
+      color: #fff;
+      transition: width 0.4s ease;
+      overflow: hidden;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: none;
+    }
+
+    .menu.open {
+      transition: 1s ease all;
+      width: 200px;
+      background-color: #000;
+    }
+
+    .menu.open .menu-list {
+      display: block;
     }
   }
 }
 
-i{
+i {
   cursor: pointer;
 }
-button{
+button {
   cursor: pointer;
 }
