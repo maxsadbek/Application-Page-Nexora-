@@ -25,10 +25,10 @@ main {
       }
     }
 
-    .card_big_div{
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
+    .card_big_div {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
     }
     .card_div {
       margin-top: 5rem;
@@ -103,34 +103,53 @@ main {
       }
     }
   }
-  .tecnology{
+  .tecnology {
     margin-top: 7rem;
-    .tecnology_box{
+    .tecnology_box {
       display: flex;
       justify-content: space-between;
-      .tecnology_text1{
-        h2{
+      .tecnology_text1 {
+        h2 {
           width: 90%;
           text-transform: uppercase;
           font-weight: 700;
           font-size: 40px;
-          span{
+          span {
             font-weight: 200;
           }
         }
       }
-      .tecnology_text2{
+      .tecnology_text2 {
         margin-right: 6rem;
-        h2{
+        h2 {
           color: #b099d9;
           font-size: 40px;
           letter-spacing: 2px;
           text-transform: uppercase;
         }
-        h3{
-          width:90%;
+        h3 {
+          width: 90%;
           font-size: 25px;
         }
+      }
+    }
+    .technology_box2 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 10rem;
+      .tecnology_text3 {
+        width: 50%;
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+    .technology_img_div {
+      max-width: 40%;
+      width: 40%;
+      img {
+        width: 200px;
       }
     }
   }

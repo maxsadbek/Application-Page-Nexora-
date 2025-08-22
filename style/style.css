@@ -265,5 +265,24 @@ main .tecnology .tecnology_box .tecnology_text2 h3 {
   width: 90%;
   font-size: 25px;
 }
+main .tecnology .technology_box2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+main .tecnology .technology_box2 .tecnology_text3 {
+  width: 50%;
+}
+main .tecnology .technology_box2 .tecnology_text3 h2 {
+  font-size: 30px;
+}
+main .tecnology .technology_img_div {
+  max-width: 40%;
+  width: 40%;
+}
+main .tecnology .technology_img_div img {
+  width: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
