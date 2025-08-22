@@ -1,0 +1,28 @@
+main{
+    .card{
+        .card_box{
+            margin-top: 3rem;
+            text-align: center;
+            align-items: center;
+            h1{
+                font-weight: 600;
+                font-size: 40px;
+                color: #555;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+            }
+            h2{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #b099d9;
+                letter-spacing: 2px;
+            }
+
+            p{
+                font-size: 18px;
+                margin-top: 2rem;
+                line-height: 1.5;
+            }
+        }
+    }
+}
