@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -87,7 +86,7 @@ header .navbar #menuBtn {
   color: #fff;
 }
 header .navbar .side-menu.open {
-  right: 0; /* class qo‘shilganda chiqadi */
+  right: 0;
 }
 header .navbar .Menu_text {
   font-size: 18px;
@@ -102,6 +101,10 @@ header .navbar .Menu_text li {
 }
 header .navbar .Menu_text li:hover {
   transform: scale(0.9);
+}
+header .navbar .Menu_text li span {
+  margin-left: 4rem;
+  font-size: 25px;
 }
 
 i {

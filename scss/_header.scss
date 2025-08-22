@@ -76,7 +76,7 @@ header {
     }
 
     .side-menu.open {
-      right: 0; /* class qo‘shilganda chiqadi */
+      right: 0;
     }
     .Menu_text {
       font-size: 18px;
@@ -90,6 +90,10 @@ header {
         color: #fff;
         &:hover {
           transform: scale(0.9);
+        }
+          span{
+            margin-left: 4rem;
+            font-size: 25px;
         }
       }
     }
