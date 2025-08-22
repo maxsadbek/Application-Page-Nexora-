@@ -1,0 +1,25 @@
+{
+  "name": "application-page-nexora-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass scss/style.scss:style/style.css",
+    "sass:watch":"sass --watch scss/style.scss:style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsadbek/Application-Page-Nexora-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsadbek/Application-Page-Nexora-/issues"
+  },
+  "homepage": "https://github.com/maxsadbek/Application-Page-Nexora-#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
