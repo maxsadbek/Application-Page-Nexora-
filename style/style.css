@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ header {
   overflow: hidden;
   background-position: 50% 50%;
   padding-top: 1.5rem;
+  position: relative;
 }
 header form {
   align-items: center;
@@ -49,25 +51,39 @@ header .navbar {
   align-items: center;
   justify-content: space-between;
 }
-header .navbar .menu {
-  font-size: 30px;
+header .navbar .side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px; /* ekrandan tashqarida turadi */
+  width: 250px;
+  height: 100%;
+  background: #222;
   color: #fff;
-  transition: width 0.4s ease;
-  overflow: hidden;
+  padding: 20px;
+  transition: right 0.4s ease; /* asta chiqishi */
 }
-header .navbar .menu-list {
+header .navbar .side-menu ul {
   list-style: none;
   padding: 0;
-  margin: 10px 0 0 0;
-  display: none;
 }
-header .navbar .menu.open {
-  transition: 1s ease all;
-  width: 200px;
-  background-color: #000;
+header .navbar .side-menu ul li {
+  margin: 15px 0;
 }
-header .navbar .menu.open .menu-list {
-  display: block;
+header .navbar #close {
+  transition: all 1s ease;
+  font-size: 20px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+header .navbar #menuBtn {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+header .navbar .side-menu.open {
+  right: 0; /* class qo‘shilganda chiqadi */
 }
 
 i {

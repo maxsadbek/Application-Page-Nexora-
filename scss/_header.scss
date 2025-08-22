@@ -8,6 +8,7 @@ header {
   overflow: hidden;
   background-position: 50% 50%;
   padding-top: 1.5rem;
+  position: relative;
   form {
     align-items: center;
     input {
@@ -35,28 +36,45 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .menu {
-      font-size: 30px;
+
+    .side-menu {
+      position: fixed;
+      top: 0;
+      right: -250px; /* ekrandan tashqarida turadi */
+      width: 250px;
+      height: 100%;
+      background: #222;
       color: #fff;
-      transition: width 0.4s ease;
-      overflow: hidden;
+      padding: 20px;
+      transition: right 0.4s ease; /* asta chiqishi */
     }
 
-    .menu-list {
+    .side-menu ul {
       list-style: none;
       padding: 0;
-      margin: 10px 0 0 0;
-      display: none;
     }
 
-    .menu.open {
-      transition: 1s ease all;
-      width: 200px;
-      background-color: #000;
+    .side-menu ul li {
+      margin: 15px 0;
     }
 
-    .menu.open .menu-list {
-      display: block;
+    #close{
+      transition: all 1s ease;
+      font-size: 20px;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+    }
+
+    #menuBtn{
+      font-size: 30px;
+      background-color: transparent;
+      border: none;
+      color: #fff;
+    }
+
+    .side-menu.open {
+      right: 0; /* class qo‘shilganda chiqadi */
     }
   }
 }

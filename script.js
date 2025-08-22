@@ -1,5 +1,10 @@
-let menu = document.getElementById("menu");
+let btn = document.getElementById("menuBtn");
+let menu = document.getElementById("sideMenu");
+let CloseBtn = document.querySelector("#close")
 
-menu.addEventListener("click", () => {
+CloseBtn.addEventListener("click", () => {
+    sideMenu.remove("open")
+})
+btn.addEventListener("click", () => {
   menu.classList.toggle("open");
 });
