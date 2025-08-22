@@ -264,16 +264,66 @@ main {
       }
     }
   }
+
+  .sample {
+    padding: 3rem;
+    background-color: #b099d96b;
+    width: 100%;
+    height: auto;
+    > div {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      .sample2 {
+        margin-top: 12rem;
+      }
+    }
+  }
+
+  .sample_box {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    padding: 40px 70px;
+    text-align: center;
+    border-radius: 30px;
+
+    img {
+      overflow: hidden;
+      object-fit: cover;
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-weight: 400;
+      line-height: 1.7;
+      font-size: 22px;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+    }
+    h4 {
+      color: #a68bc4;
+      font-size: 16px;
+    }
+  }
 }
 
-button{
+button {
   transition: all 0.2s ease-in-out;
 }
 
-button:hover{
+button:hover {
   transform: translateY(-4px);
 }
 
-button:active{
+button:active {
   transform: translateY(2px);
 }
