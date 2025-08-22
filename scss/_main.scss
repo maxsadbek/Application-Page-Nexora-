@@ -1,28 +1,106 @@
-main{
-    .card{
-        .card_box{
-            margin-top: 3rem;
-            text-align: center;
-            align-items: center;
-            h1{
-                font-weight: 600;
-                font-size: 40px;
-                color: #555;
-                text-transform: uppercase;
-                margin-bottom: 1rem;
-            }
-            h2{
-                font-size: 30px;
-                text-transform: uppercase;
-                color: #b099d9;
-                letter-spacing: 2px;
-            }
+main {
+  .card {
+    .card_box {
+      margin-top: 3rem;
+      text-align: center;
+      align-items: center;
+      h1 {
+        font-weight: 600;
+        font-size: 40px;
+        color: #555;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #b099d9;
+        letter-spacing: 2px;
+      }
 
-            p{
-                font-size: 18px;
-                margin-top: 2rem;
-                line-height: 1.5;
-            }
-        }
+      p {
+        font-size: 18px;
+        margin-top: 2rem;
+        line-height: 1.5;
+      }
     }
+
+    .card_big_div{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .card_div {
+      margin-top: 5rem;
+      background-color: #f4f4f4;
+      width: 400px;
+      height: 450px;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 50px;
+      box-shadow: 3px 1px 10px #babecc;
+
+      .icon {
+        padding: 20px;
+        background-color: #fff;
+        font-size: 62px;
+        color: #b099d9;
+        border-radius: 20px;
+      }
+      h2 {
+        margin-top: 3rem;
+        font-size: 25px;
+        color: #555;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 19px;
+        line-height: 1.5;
+        color: #566;
+        margin-bottom: 3rem;
+      }
+
+      .bottom {
+        font-size: 100px;
+        color: #b099d9;
+      }
+    }
+    .card_div2 {
+      margin-top: 5rem;
+      background-color: #b099d987;
+      width: 400px;
+      height: 450px;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 50px;
+      box-shadow: 3px 1px 10px #babecc;
+
+      .icon {
+        padding: 20px;
+        background-color: #fff;
+        font-size: 62px;
+        color: #b099d9;
+        border-radius: 20px;
+      }
+      h2 {
+        margin-top: 3rem;
+        font-size: 25px;
+        color: #555;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 19px;
+        line-height: 1.5;
+        color: #566;
+        margin-bottom: 3rem;
+      }
+
+      .bottom {
+        font-size: 100px;
+        color: #b099d9;
+      }
+    }
+  }
 }

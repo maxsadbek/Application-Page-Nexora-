@@ -20,15 +20,17 @@ header {
   background-repeat: no-repeat;
   background-size: 100rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   overflow: hidden;
   background-position: 50% 50%;
   padding-top: 1.5rem;
   position: relative;
 }
+
 header form {
   align-items: center;
 }
+
 header form input {
   border-radius: 5px;
   background-color: transparent;
@@ -40,12 +42,15 @@ header form input {
   font-size: 18px;
   position: relative;
 }
+
 header form input::-moz-placeholder {
   color: #fff;
 }
+
 header form input::placeholder {
   color: #fff;
 }
+
 header form i {
   color: #fff;
   font-size: 20px;
@@ -53,11 +58,13 @@ header form i {
   transform: translateX(-30px);
   position: absolute;
 }
+
 header .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 header .navbar .side-menu {
   position: fixed;
   top: 0;
@@ -66,18 +73,21 @@ header .navbar .side-menu {
   height: 100%;
   background: rgba(255, 255, 255, 0.2235294118);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   color: #fff;
   padding: 20px;
   transition: right 0.8s ease;
 }
+
 header .navbar .side-menu ul {
   list-style: none;
   padding: 0;
 }
+
 header .navbar .side-menu ul li {
   margin: 15px 0;
 }
+
 header .navbar #close {
   transition: all 2s ease;
   font-size: 20px;
@@ -85,18 +95,22 @@ header .navbar #close {
   background-color: transparent;
   border: none;
 }
+
 header .navbar #menuBtn {
   font-size: 30px;
   background-color: transparent;
   border: none;
   color: #fff;
 }
+
 header .navbar .side-menu.open {
   right: 0; /* class qo‘shilganda chiqadi */
 }
+
 header .navbar .Menu_text {
   font-size: 18px;
 }
+
 header .navbar .Menu_text li {
   padding: 20px;
   box-shadow: 10px 10px 20px rgba(186, 186, 206, 0.8), -1px -1px 20px #fff;
@@ -105,6 +119,7 @@ header .navbar .Menu_text li {
   border-radius: 10px;
   color: #fff;
 }
+
 header .navbar .Menu_text li:hover {
   transform: scale(0.9);
 }
@@ -120,6 +135,7 @@ button {
 .hero {
   margin-top: 4rem;
 }
+
 .hero .hero_box h1 {
   text-transform: uppercase;
   font-weight: 500;
@@ -128,6 +144,7 @@ button {
   width: 50%;
   letter-spacing: 2px;
 }
+
 .hero .hero_box p {
   margin-top: 1rem;
   font-size: 18px;
@@ -136,11 +153,13 @@ button {
   line-height: 1.4;
   margin-bottom: 3rem;
 }
+
 .hero .hero_box h4 {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
 }
+
 .hero .hero_box h4 a {
   color: #fff;
 }
@@ -150,6 +169,7 @@ main .card .card_box {
   text-align: center;
   align-items: center;
 }
+
 main .card .card_box h1 {
   font-weight: 600;
   font-size: 40px;
@@ -157,87 +177,18 @@ main .card .card_box h1 {
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+
 main .card .card_box h2 {
   font-size: 30px;
   text-transform: uppercase;
   color: #b099d9;
   letter-spacing: 2px;
 }
+
 main .card .card_box p {
   font-size: 18px;
   margin-top: 2rem;
   line-height: 1.5;
-}
-main .card .card_big_div {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-main .card .card_div {
-  margin-top: 5rem;
-  background-color: #f4f4f4;
-  width: 400px;
-  height: 450px;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 50px;
-  box-shadow: 3px 1px 10px #babecc;
-}
-main .card .card_div .icon {
-  padding: 20px;
-  background-color: #fff;
-  font-size: 62px;
-  color: #b099d9;
-  border-radius: 20px;
-}
-main .card .card_div h2 {
-  margin-top: 3rem;
-  font-size: 25px;
-  color: #555;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-main .card .card_div p {
-  font-size: 19px;
-  line-height: 1.5;
-  color: #566;
-  margin-bottom: 3rem;
-}
-main .card .card_div .bottom {
-  font-size: 100px;
-  color: #b099d9;
-}
-main .card .card_div2 {
-  margin-top: 5rem;
-  background-color: rgba(176, 153, 217, 0.5294117647);
-  width: 400px;
-  height: 450px;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 50px;
-  box-shadow: 3px 1px 10px #babecc;
-}
-main .card .card_div2 .icon {
-  padding: 20px;
-  background-color: #fff;
-  font-size: 62px;
-  color: #b099d9;
-  border-radius: 20px;
-}
-main .card .card_div2 h2 {
-  margin-top: 3rem;
-  font-size: 25px;
-  color: #555;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-main .card .card_div2 p {
-  font-size: 19px;
-  line-height: 1.5;
-  color: #566;
-  margin-bottom: 3rem;
-}
-main .card .card_div2 .bottom {
-  font-size: 100px;
-  color: #b099d9;
-}/*# sourceMappingURL=style.css.map */
+} 
+
+/*# sourceMappingURL=style.css.map */
