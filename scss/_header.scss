@@ -8,8 +8,9 @@ header {
   overflow: hidden;
   background-position: 50% 50%;
   padding-top: 1.5rem;
-  form{
-    input{
+  form {
+    align-items: center;
+    input {
       background-color: transparent;
       border: 1px solid #fff;
       color: #fff;
@@ -18,9 +19,32 @@ header {
       padding: 12px 10px;
       font-size: 18px;
       position: relative;
-      &::placeholder{
+      &::placeholder {
         color: #fff;
       }
     }
+    i {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 10px;
+      transform: translateX(-30px);
+      position: absolute;
+    }
   }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    #menu{
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+}
+
+i{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
 }

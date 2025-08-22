@@ -21,6 +21,9 @@ header {
   background-position: 50% 50%;
   padding-top: 1.5rem;
 }
+header form {
+  align-items: center;
+}
 header form input {
   background-color: transparent;
   border: 1px solid #fff;
@@ -33,6 +36,30 @@ header form input {
 }
 header form input::placeholder {
   color: #fff;
+}
+header form i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  transform: translateX(-30px);
+  position: absolute;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar #menu {
+  color: #fff;
+  font-size: 30px;
+}
+
+i {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
