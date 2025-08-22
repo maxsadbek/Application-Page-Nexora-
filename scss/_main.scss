@@ -103,4 +103,35 @@ main {
       }
     }
   }
+  .tecnology{
+    margin-top: 7rem;
+    .tecnology_box{
+      display: flex;
+      justify-content: space-between;
+      .tecnology_text1{
+        h2{
+          width: 90%;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 40px;
+          span{
+            font-weight: 200;
+          }
+        }
+      }
+      .tecnology_text2{
+        margin-right: 6rem;
+        h2{
+          color: #b099d9;
+          font-size: 40px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+        h3{
+          width:90%;
+          font-size: 25px;
+        }
+      }
+    }
+  }
 }

@@ -236,5 +236,34 @@ main .card .card_div2 .bottom {
   font-size: 100px;
   color: #b099d9;
 }
+main .tecnology {
+  margin-top: 7rem;
+}
+main .tecnology .tecnology_box {
+  display: flex;
+  justify-content: space-between;
+}
+main .tecnology .tecnology_box .tecnology_text1 h2 {
+  width: 90%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+main .tecnology .tecnology_box .tecnology_text1 h2 span {
+  font-weight: 200;
+}
+main .tecnology .tecnology_box .tecnology_text2 {
+  margin-right: 6rem;
+}
+main .tecnology .tecnology_box .tecnology_text2 h2 {
+  color: #b099d9;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main .tecnology .tecnology_box .tecnology_text2 h3 {
+  width: 90%;
+  font-size: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */
