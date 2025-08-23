@@ -548,6 +548,7 @@ main .dropdown .dropdown_text .text_dropdown h3 {
 main .dropdown .dropdown_text .text_dropdown i {
   font-size: 30px;
   font-weight: 500;
+  color: #a68bc4;
 }
 main .dropdown .dropdown_text .dropdown_text2 {
   display: none;
