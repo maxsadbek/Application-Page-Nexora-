@@ -315,6 +315,106 @@ main {
       font-size: 16px;
     }
   }
+
+  .card2 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    .card2_box {
+      width: 400px;
+      text-align: center;
+      padding: 40px;
+
+      img {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 50px !important;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: #b099d9;
+      }
+      h2 {
+        margin-top: 1rem;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 17px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+
+      }
+      .card_i {
+        gap: 40px;
+
+        i {
+          cursor: pointer;
+          font-size: 25px;
+          border: none;
+          padding: 10px;
+          &:hover {
+            color: #555;
+            border: 2px solid black;
+            border-radius: 100%;
+          }
+        }
+      }
+
+
+    }
+    .card2_box2 {
+      width: 400px;
+      text-align: center;
+      padding: 40px;
+      background: #a68bc4ce;
+      border-radius: 50px;
+      color: #fff;
+
+      img {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 50px !important;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: #d6beff;
+      }
+      h2 {
+        margin-top: 1rem;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 17px;
+        color: #fff;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+      .card_i {
+        gap: 40px;
+
+        i {
+          cursor: pointer;
+          font-size: 25px;
+          border: none;
+          padding: 10px;
+          &:hover {
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 
 button {
