@@ -53,6 +53,12 @@ header .navbar {
   align-items: center;
   justify-content: space-between;
 }
+header .navbar .menu2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  font-size: 19px;
+}
 header .navbar .side-menu {
   position: fixed;
   top: 0;
@@ -97,13 +103,15 @@ header .navbar .Menu_text li {
   width: auto;
   transition: all 0.2s ease-in-out;
   border-radius: 10px;
+  position: relative;
   color: #fff;
 }
 header .navbar .Menu_text li:hover {
   transform: scale(0.9);
 }
 header .navbar .Menu_text li span {
-  margin-left: 4rem;
+  position: absolute;
+  right: 10px;
   font-size: 25px;
 }
 

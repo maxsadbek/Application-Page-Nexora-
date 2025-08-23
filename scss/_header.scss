@@ -38,6 +38,13 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    .menu2{
+      display: flex;
+      justify-content: space-around;
+      margin-top: -20px;
+      font-size: 19px;
+    }
+
     .side-menu {
       position: fixed;
       top: 0;
@@ -87,12 +94,14 @@ header {
         width: auto;
         transition: all 0.2s ease-in-out;
         border-radius: 10px;
+        position: relative;
         color: #fff;
         &:hover {
           transform: scale(0.9);
         }
           span{
-            margin-left: 4rem;
+            position: absolute;
+            right: 10px;
             font-size: 25px;
         }
       }
