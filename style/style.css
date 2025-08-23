@@ -521,6 +521,53 @@ main .card2 .card2_box2 .card_i i:hover {
   border: 2px solid #fff;
   border-radius: 100%;
 }
+main .dropdown {
+  background-color: rgba(151, 87, 210, 0.3176470588);
+  padding-top: 5rem;
+}
+main .dropdown .box {
+  background-color: #f4f4f4;
+  width: 1000px;
+  padding: 3rem;
+}
+main .dropdown .dropdown_box {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+main .dropdown .dropdown_text {
+  background-color: #fff;
+  padding: 20px;
+}
+main .dropdown .dropdown_text .text_dropdown {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .dropdown .dropdown_text .text_dropdown h3 {
+  color: #000;
+  font-size: 25px;
+}
+main .dropdown .dropdown_text .text_dropdown i {
+  font-size: 30px;
+  font-weight: 500;
+}
+main .dropdown .dropdown_text .dropdown_text2 {
+  display: none;
+  padding: 0 30px;
+}
+main .dropdown .dropdown_text .dropdown_text2 h2 {
+  font-size: 20px;
+  width: 80%;
+  line-height: 1.5;
+}
+main .dropdown .dropdown_text .dropdown_text2 p {
+  font-size: 17px;
+  margin-top: 1rem;
+}
 
 button {
   transition: all 0.2s ease-in-out;

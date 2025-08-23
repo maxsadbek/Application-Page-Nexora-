@@ -347,7 +347,6 @@ main {
         color: #555;
         line-height: 1.6;
         margin-bottom: 1rem;
-
       }
       .card_i {
         gap: 40px;
@@ -364,8 +363,6 @@ main {
           }
         }
       }
-
-
     }
     .card2_box2 {
       width: 400px;
@@ -411,6 +408,53 @@ main {
             border: 2px solid #fff;
             border-radius: 100%;
           }
+        }
+      }
+    }
+  }
+  .dropdown {
+    background-color: #9757d251;
+    padding-top: 5rem;
+    .box {
+      background-color: #f4f4f4;
+      width: 1000px;
+      padding: 3rem;
+    }
+    .dropdown_box {
+      color: #000;
+      text-align: center;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .dropdown_text {
+      background-color: #fff;
+      padding: 20px;
+      .text_dropdown{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3{
+          color: #000;
+          font-size: 25px;
+        }
+        i{
+          font-size: 30px;
+          font-weight: 500;
+        }
+      }
+      .dropdown_text2{
+        display: none;
+        padding: 0 30px;
+        h2{
+          font-size: 20px;
+          width: 80%;
+          line-height: 1.5;
+        }
+        p{
+          font-size: 17px;
+          margin-top: 1rem;
         }
       }
     }
