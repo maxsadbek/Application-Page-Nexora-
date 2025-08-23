@@ -413,6 +413,7 @@ main {
     }
   }
   .dropdown {
+    margin-top: 5rem;
     background-color: #9757d251;
     padding-top: 5rem;
     .box {
@@ -459,6 +460,14 @@ main {
       }
     }
   }
+}
+#dropdown2 {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#dropdown2.open {
+  display: block;
 }
 
 button {

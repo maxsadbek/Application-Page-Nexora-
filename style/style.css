@@ -522,6 +522,7 @@ main .card2 .card2_box2 .card_i i:hover {
   border-radius: 100%;
 }
 main .dropdown {
+  margin-top: 5rem;
   background-color: rgba(151, 87, 210, 0.3176470588);
   padding-top: 5rem;
 }
@@ -567,6 +568,15 @@ main .dropdown .dropdown_text .dropdown_text2 h2 {
 main .dropdown .dropdown_text .dropdown_text2 p {
   font-size: 17px;
   margin-top: 1rem;
+}
+
+#dropdown2 {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#dropdown2.open {
+  display: block;
 }
 
 button {
