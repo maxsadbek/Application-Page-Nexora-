@@ -9,6 +9,8 @@ dropdown1Btn.addEventListener("click", () => {
   dropdown2Box.classList.toggle("open");
 });
 
+
+
 // close bosilganda yopiladi
 CloseBtn.addEventListener("click", () => {
   menu.classList.remove("open");

@@ -95,6 +95,7 @@ header {
         transition: all 0.2s ease-in-out;
         border-radius: 10px;
         position: relative;
+        cursor: pointer;
         color: #fff;
         &:hover {
           transform: scale(0.9);

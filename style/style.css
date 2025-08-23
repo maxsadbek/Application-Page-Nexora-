@@ -104,6 +104,7 @@ header .navbar .Menu_text li {
   transition: all 0.2s ease-in-out;
   border-radius: 10px;
   position: relative;
+  cursor: pointer;
   color: #fff;
 }
 header .navbar .Menu_text li:hover {
