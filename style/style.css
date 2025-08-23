@@ -473,8 +473,6 @@ main .card2 .card2_box .card_i i {
 }
 main .card2 .card2_box .card_i i:hover {
   color: #555;
-  border: 2px solid black;
-  border-radius: 100%;
 }
 main .card2 .card2_box2 {
   width: 400px;
@@ -515,11 +513,6 @@ main .card2 .card2_box2 .card_i i {
   font-size: 25px;
   border: none;
   padding: 10px;
-}
-main .card2 .card2_box2 .card_i i:hover {
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 100%;
 }
 main .dropdown {
   margin-top: 5rem;

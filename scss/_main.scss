@@ -358,8 +358,6 @@ main {
           padding: 10px;
           &:hover {
             color: #555;
-            border: 2px solid black;
-            border-radius: 100%;
           }
         }
       }
@@ -403,11 +401,7 @@ main {
           font-size: 25px;
           border: none;
           padding: 10px;
-          &:hover {
-            color: #fff;
-            border: 2px solid #fff;
-            border-radius: 100%;
-          }
+
         }
       }
     }
