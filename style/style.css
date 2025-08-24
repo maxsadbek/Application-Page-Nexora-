@@ -707,4 +707,703 @@ button:active {
   transform: translateY(2px);
 }
 
+footer {
+  background-color: #444;
+  text-align: center;
+  padding: 40px;
+}
+footer h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    background-image: url(./../img/png/hero-backgroun_LE_upscale_balanced_x4.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 1.5rem;
+    padding: 1.5rem 10px;
+    background-position: 20% 90%;
+    position: relative;
+  }
+  header form {
+    align-items: center;
+  }
+  header form input {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    width: 250px;
+    padding: 12px 10px;
+    font-size: 18px;
+    position: relative;
+  }
+  header form input::placeholder {
+    color: #fff;
+  }
+  header form i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    transform: translateX(-30px);
+    position: absolute;
+  }
+  header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .navbar .menu2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    font-size: 19px;
+  }
+  header .navbar .side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2235294118);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 20px;
+    transition: right 0.8s ease;
+  }
+  header .navbar .side-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  header .navbar .side-menu ul li {
+    margin: 15px 0;
+  }
+  header .navbar #close {
+    transition: all 2s ease;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+  }
+  header .navbar #menuBtn {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+  header .navbar .side-menu.open {
+    right: 0;
+  }
+  header .navbar .Menu_text {
+    font-size: 18px;
+  }
+  header .navbar .Menu_text li {
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(186, 186, 206, 0.8), -1px -1px 20px #fff;
+    width: auto;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+  }
+  header .navbar .Menu_text li:hover {
+    transform: scale(0.9);
+  }
+  header .navbar .Menu_text li span {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+  }
+  i {
+    cursor: pointer;
+  }
+  button {
+    cursor: pointer;
+  }
+  .hero {
+    margin-top: 4rem;
+  }
+  .hero .hero_box h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  .hero .hero_box p {
+    margin-top: 1rem;
+    font-size: 19px;
+    color: #fff;
+    width: 100%;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+  }
+  .hero .hero_box h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero .hero_box h4 a {
+    color: #fff;
+  }
+  main {
+    padding: 0 10px;
+  }
+  main .card .card_box {
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+  main .card .card_box h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  main .card .card_box h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #b099d9;
+    letter-spacing: 2px;
+  }
+  main .card .card_box p {
+    font-size: 15px;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+  main .card .card_big_div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  main .card .card_div {
+    margin-top: 3rem;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: 3px 1px 10px #babecc;
+  }
+  main .card .card_div .icon {
+    padding: 20px;
+    background-color: #fff;
+    font-size: 62px;
+    color: #b099d9;
+    border-radius: 20px;
+  }
+  main .card .card_div h2 {
+    margin-top: 3rem;
+    font-size: 25px;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  main .card .card_div p {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #566;
+    margin-bottom: 3rem;
+  }
+  main .card .card_div .bottom {
+    font-size: 100px;
+    color: #b099d9;
+  }
+  main .card .card_div2 {
+    margin-top: 5rem;
+    background-color: rgba(176, 153, 217, 0.5294117647);
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: 3px 1px 10px #babecc;
+  }
+  main .card .card_div2 .icon {
+    padding: 20px;
+    background-color: #fff;
+    font-size: 62px;
+    color: #b099d9;
+    border-radius: 20px;
+  }
+  main .card .card_div2 h2 {
+    margin-top: 3rem;
+    font-size: 25px;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  main .card .card_div2 p {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #566;
+    margin-bottom: 3rem;
+  }
+  main .card .card_div2 .bottom {
+    font-size: 100px;
+    color: #b099d9;
+  }
+  main .tecnology {
+    margin-top: 7rem;
+  }
+  main .tecnology .tecnology_box {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .tecnology .tecnology_box .tecnology_text1 h2 {
+    width: 90%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  main .tecnology .tecnology_box .tecnology_text1 h2 span {
+    font-weight: 200;
+  }
+  main .tecnology .tecnology_box .tecnology_text2 {
+    margin-right: 6rem;
+  }
+  main .tecnology .tecnology_box .tecnology_text2 h2 {
+    color: #b099d9;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  main .tecnology .tecnology_box .tecnology_text2 h3 {
+    width: 90%;
+    font-size: 25px;
+  }
+  main .content {
+    flex: 1;
+  }
+  main .content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  main .content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  main .btn {
+    background: #a68bc4;
+    padding: 15px 35px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  main .team {
+    margin-top: 10rem;
+    flex: 1;
+  }
+  main .team h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  main .team-members {
+    background: #e2d4f0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    gap: 3rem;
+    width: 550px;
+    height: 250px;
+  }
+  main .member {
+    text-align: center;
+  }
+  main .member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  main .member h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  main .member p {
+    font-size: 16px;
+    color: #444;
+  }
+  main .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 12rem;
+  }
+  main .text {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+  }
+  main .text .left_text .text1 {
+    background-color: rgba(151, 87, 210, 0.0588235294);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    gap: 3rem;
+  }
+  main .text .left_text .text1 h1 {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  main .text .left_text .text1 p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 18px;
+    width: 400px;
+  }
+  main .text .left_text .text2 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  main .text .left_text .text2 h1 {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  main .text .left_text .text2 p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 18px;
+    width: 400px;
+  }
+  main .sample {
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: rgba(176, 153, 217, 0.4196078431);
+    width: 100%;
+    height: auto;
+  }
+  main .sample > div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  main .sample > div .sample2 {
+    margin-top: 12rem;
+  }
+  main .sample_box {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    padding: 40px 70px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  main .sample_box img {
+    overflow: hidden;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+  }
+  main .sample_box p {
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 22px;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  main .sample_box h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+  main .sample_box h4 {
+    color: #a68bc4;
+    font-size: 16px;
+  }
+  main .card2 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .card2 .card2_box {
+    width: 400px;
+    text-align: center;
+    padding: 40px;
+  }
+  main .card2 .card2_box img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50px !important;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box h3 {
+    color: #b099d9;
+  }
+  main .card2 .card2_box h2 {
+    margin-top: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box .card_i {
+    gap: 40px;
+  }
+  main .card2 .card2_box .card_i i {
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+  }
+  main .card2 .card2_box .card_i i:hover {
+    color: #555;
+  }
+  main .card2 .card2_box2 {
+    width: 400px;
+    text-align: center;
+    padding: 40px;
+    background: rgba(166, 139, 196, 0.8078431373);
+    border-radius: 50px;
+    color: #fff;
+  }
+  main .card2 .card2_box2 img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50px !important;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box2 h3 {
+    color: #d6beff;
+  }
+  main .card2 .card2_box2 h2 {
+    margin-top: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box2 p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  main .card2 .card2_box2 .card_i {
+    gap: 40px;
+  }
+  main .card2 .card2_box2 .card_i i {
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+  }
+  main .dropdown {
+    margin-top: 5rem;
+    background-color: rgba(151, 87, 210, 0.3176470588);
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+  main .dropdown .box {
+    background-color: #f4f4f4;
+    width: 1000px;
+    padding: 3rem;
+  }
+  main .dropdown .dropdown_box {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  main .dropdown .dropdown_text {
+    background-color: #fff;
+    padding: 20px;
+  }
+  main .dropdown .dropdown_text .text_dropdown {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .dropdown .dropdown_text .text_dropdown h3 {
+    color: #000;
+    font-size: 25px;
+  }
+  main .dropdown .dropdown_text .text_dropdown i {
+    font-size: 30px;
+    font-weight: 500;
+    color: #a68bc4;
+  }
+  main .dropdown .dropdown_text .dropdown_text2 {
+    display: none;
+    padding: 0 30px;
+  }
+  main .dropdown .dropdown_text .dropdown_text2 h2 {
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.5;
+  }
+  main .dropdown .dropdown_text .dropdown_text2 p {
+    font-size: 17px;
+    margin-top: 1rem;
+  }
+  main .contact {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f4fb;
+    gap: 5rem;
+  }
+  main .contact .contact_box form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .contact .contact_box form label {
+    font-size: 18px;
+  }
+  main .contact .contact_box form input {
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+    padding: 20px 10px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+  }
+  main .contact .contact_box form select {
+    margin-top: 1rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+  main .contact .contact_box form select option {
+    padding: 10px;
+  }
+  main .contact .contact_box form .contact_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+  }
+  main .contact .contact_box form .contact_flex > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main .contact .contact_box form .contact_flex > div label {
+    margin-bottom: -5px;
+  }
+  main .contact .contact_box form .contact_flex > div input {
+    outline: none;
+  }
+  main .contact .contact_box form .textarea {
+    padding: 12px 20px;
+    background-clip: padding-box;
+  }
+  main .contact .contact_box form button {
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    background-color: #a68bc4;
+    font-size: 17px;
+    width: 150px;
+    padding: 15px 12px;
+    text-transform: uppercase;
+  }
+  main .contact .contact_box form #Phone {
+    position: relative;
+  }
+  main .contact .contact_box form .eror {
+    position: absolute;
+    color: red;
+    margin-top: 2.5rem;
+    margin-left: 16rem;
+    display: none;
+  }
+  main .contact .contact_box form .Check {
+    margin-top: 2.5rem;
+    margin-left: 16rem;
+    position: absolute;
+    color: greenyellow;
+    font-size: 30px;
+    display: none;
+  }
+  main .contact .contact_right_text {
+    background-color: #fff;
+    padding: 100px 20px;
+    border-radius: 40px;
+  }
+  main .contact .contact_right_text p {
+    font-size: 20px;
+    margin-left: 1rem;
+    line-height: 1.7;
+  }
+  #dropdown2 {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  #dropdown2.open {
+    display: block;
+  }
+  #dropdown4 {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  #dropdown4.open {
+    display: block;
+  }
+  #dropdown6 {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  #dropdown6.open {
+    display: block;
+  }
+  button {
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover {
+    transform: translateY(-4px);
+  }
+  button:active {
+    transform: translateY(2px);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
