@@ -961,12 +961,13 @@ footer h2 {
   main .tecnology .tecnology_box {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
   main .tecnology .tecnology_box .tecnology_text1 h2 {
     width: 90%;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
   }
   main .tecnology .tecnology_box .tecnology_text1 h2 span {
     font-weight: 200;
@@ -975,8 +976,9 @@ footer h2 {
     margin-right: 6rem;
   }
   main .tecnology .tecnology_box .tecnology_text2 h2 {
+    margin-top: 1rem;
     color: #b099d9;
-    font-size: 40px;
+    font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -985,7 +987,8 @@ footer h2 {
     font-size: 25px;
   }
   main .content {
-    flex: 1;
+    flex: 0;
+    flex-direction: column-reverse;
   }
   main .content h2 {
     font-size: 20px;
@@ -994,8 +997,9 @@ footer h2 {
   }
   main .content p {
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     color: #333;
+    width: 90%;
   }
   main .btn {
     background: #a68bc4;
@@ -1012,32 +1016,35 @@ footer h2 {
     flex: 1;
   }
   main .team h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
+    display: none;
   }
   main .team-members {
     background: #e2d4f0;
-    padding: 30px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     border-radius: 5px;
     gap: 3rem;
-    width: 550px;
-    height: 250px;
+    width: 100%;
+    height: auto;
+    padding: 125px;
+    display: none;
   }
   main .member {
     text-align: center;
   }
   main .member img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
   }
   main .member h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 1rem;
   }
@@ -1049,74 +1056,82 @@ footer h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1300px;
+    flex-direction: column;
+    max-width: 100%;
     margin: 50px auto;
-    padding: 20px;
-    gap: 12rem;
+    padding: 0;
+    gap: 1rem;
   }
   main .text {
-    margin-top: 7rem;
+    margin-top: -4rem;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
   }
   main .text .left_text .text1 {
     background-color: rgba(151, 87, 210, 0.0588235294);
-    padding: 10px;
+    padding-left: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
     margin-bottom: 1rem;
-    gap: 3rem;
+    width: 100%;
+    gap: 1rem;
   }
   main .text .left_text .text1 h1 {
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 30px;
   }
   main .text .left_text .text1 p {
     color: #555;
     line-height: 1.6;
-    font-size: 18px;
-    width: 400px;
+    font-size: 17px;
+    width: 100%;
   }
   main .text .left_text .text2 {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     border-radius: 10px;
     margin-bottom: 1rem;
+    gap: 1rem;
   }
   main .text .left_text .text2 h1 {
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 30px;
   }
   main .text .left_text .text2 p {
     color: #555;
     line-height: 1.6;
-    font-size: 18px;
-    width: 400px;
+    font-size: 17px;
+    width: 100%;
   }
   main .sample {
     margin-top: 4rem;
-    padding: 3rem;
+    padding: 1rem;
     background-color: rgba(176, 153, 217, 0.4196078431);
     width: 100%;
-    height: auto;
+    height: 900px;
   }
   main .sample > div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     gap: 2rem;
   }
   main .sample > div .sample2 {
     margin-top: 12rem;
   }
   main .sample_box {
-    width: 400px;
+    margin-bottom: -12rem;
+    width: 100%;
     height: 400px;
     background-color: #fff;
-    padding: 40px 70px;
+    padding: 10px 40px;
     text-align: center;
     border-radius: 30px;
   }
@@ -1149,6 +1164,7 @@ footer h2 {
     margin-top: 5rem;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
   }
   main .card2 .card2_box {
     width: 400px;
@@ -1238,13 +1254,14 @@ footer h2 {
   }
   main .dropdown .box {
     background-color: #f4f4f4;
-    width: 1000px;
-    padding: 3rem;
+    width: 100%;
+    padding: 1rem;
   }
   main .dropdown .dropdown_box {
+    width: 100%;
     color: #000;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 2rem;
   }
@@ -1260,24 +1277,24 @@ footer h2 {
   }
   main .dropdown .dropdown_text .text_dropdown h3 {
     color: #000;
-    font-size: 25px;
+    font-size: 14px;
   }
   main .dropdown .dropdown_text .text_dropdown i {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: #a68bc4;
   }
   main .dropdown .dropdown_text .dropdown_text2 {
     display: none;
-    padding: 0 30px;
+    padding: 0 20px;
   }
   main .dropdown .dropdown_text .dropdown_text2 h2 {
-    font-size: 20px;
-    width: 80%;
+    font-size: 16px;
+    width: 100%;
     line-height: 1.5;
   }
   main .dropdown .dropdown_text .dropdown_text2 p {
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 1rem;
   }
   main .contact {
