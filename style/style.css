@@ -657,6 +657,16 @@ main .contact .contact_box form .Check {
   font-size: 30px;
   display: none;
 }
+main .contact .contact_right_text {
+  background-color: #fff;
+  padding: 100px 20px;
+  border-radius: 40px;
+}
+main .contact .contact_right_text p {
+  font-size: 20px;
+  margin-left: 1rem;
+  line-height: 1.7;
+}
 
 #dropdown2 {
   display: none;
