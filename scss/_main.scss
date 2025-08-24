@@ -401,7 +401,6 @@ main {
           font-size: 25px;
           border: none;
           padding: 10px;
-
         }
       }
     }
@@ -410,6 +409,7 @@ main {
     margin-top: 5rem;
     background-color: #9757d251;
     padding-top: 5rem;
+    padding-bottom: 4rem;
     .box {
       background-color: #f4f4f4;
       width: 1000px;
@@ -426,32 +426,120 @@ main {
       background-color: #fff;
       padding: 20px;
 
-      .text_dropdown{
+      .text_dropdown {
         padding: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        h3{
+        h3 {
           color: #000;
           font-size: 25px;
         }
-        i{
+        i {
           font-size: 30px;
           font-weight: 500;
           color: #a68bc4;
         }
       }
-      .dropdown_text2{
+      .dropdown_text2 {
         display: none;
         padding: 0 30px;
-        h2{
+        h2 {
           font-size: 20px;
           width: 80%;
           line-height: 1.5;
         }
-        p{
+        p {
           font-size: 17px;
           margin-top: 1rem;
+        }
+      }
+    }
+  }
+  .contact {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f4fb;
+    gap: 5rem;
+    .contact_box {
+      form {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        label {
+          font-size: 18px;
+        }
+        input {
+          border: none;
+          border-bottom: 2px solid #000;
+          margin-bottom: 1rem;
+          padding: 20px 10px;
+          font-size: 16px;
+          background-color: transparent;
+          outline: none;
+        }
+        select {
+          margin-top: 1rem;
+          padding: 10px;
+          border: none;
+          border-bottom: 2px solid #000;
+          background-color: transparent;
+          margin-bottom: 1rem;
+          option {
+            padding: 10px;
+          }
+        }
+        .contact_flex {
+          display: flex;
+          justify-content: space-between;
+          gap: 1rem;
+          align-items: center;
+          > div {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            label {
+              margin-bottom: -5px;
+            }
+            input {
+              outline: none;
+            }
+          }
+        }
+        .textarea {
+          padding: 12px 20px;
+          background-clip: padding-box;
+        }
+        button {
+          color: #fff;
+          border: none;
+          font-weight: 800;
+          background-color: #a68bc4;
+          font-size: 17px;
+          width: 150px;
+          padding: 15px 12px;
+          text-transform: uppercase;
+        }
+
+        #Phone {
+          position: relative;
+        }
+
+        .eror {
+          position: absolute;
+          color: red;
+          margin-top: 2.5rem;
+          margin-left: 16rem;
+          display: none;
+        }
+        .Check {
+          margin-top: 2.5rem;
+          margin-left: 16rem;
+          position: absolute;
+          color: greenyellow;
+          font-size: 30px;
+          display: none;
         }
       }
     }
@@ -466,6 +554,24 @@ main {
   display: block;
 }
 
+#dropdown4 {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#dropdown4.open {
+  display: block;
+}
+
+#dropdown6 {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#dropdown6.open {
+  display: block;
+}
+
 button {
   transition: all 0.2s ease-in-out;
 }
@@ -477,4 +583,3 @@ button:hover {
 button:active {
   transform: translateY(2px);
 }
-
